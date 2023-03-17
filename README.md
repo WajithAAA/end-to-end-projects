@@ -28,6 +28,7 @@
     - install requirements.txt `pip install -r requirements.txt`
 
 - create components and pipelines directory in src directory
+- update logger and exception handler files
 
 
 
