@@ -20,12 +20,14 @@
 - add changes in local repository to existing git repository
     - `git add .`
     - `git commit -m "second commit"`
-    - `git push origin main`
+    - `git push -u origin main`
 
 - create git ignore file in `.gitignore` in git repository
 
 - create setup.py file and requirements.txt 
     - install requirements.txt `pip install -r requirements.txt`
+
+- create components and pipelines directory in src directory
 
 
 
