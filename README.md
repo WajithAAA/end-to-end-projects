@@ -2,7 +2,7 @@
 
 - create local project directory
 - open anaconda prompt and type `code .` to open the vscode project
-- create new virtual env `conda create -p venv python==3.8 -y`
+- create new virtual env `conda create -p venv python==3.7 -y`
 - activate virtual environment `conda activate venv/`
 
 - create new git repository
