@@ -7,6 +7,11 @@ LOG_FILE = f"{datetime.now().strftime('%d_%m_%Y_%H_%M_%S')}.log"
 logs_path = os.path.join(os.getcwd(), "logs",LOG_FILE)
 os.makedirs(logs_path, exist_ok=True)
 
+# info_log_path = os.path.join(os.getcwd(), "logs", "info.log")
+# error_log_path = os.path.join(os.getcwd(), "logs", "error.log")
+# os.makedirs(info_log_path, exist_ok=True)
+# os.makedirs(error_log_path, exist_ok=True)
+
 LOG_FILE_PATH = os.path.join(logs_path,LOG_FILE)
 
 logging.basicConfig(
